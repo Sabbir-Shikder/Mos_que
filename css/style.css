@@ -1,0 +1,529 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Oleo Script', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 10;
+}
+/* banner part starting  */
+.hero{
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/mosque.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+.banner-part{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner-part i{
+
+    font-size: 40px;
+}
+.banner-part h1{
+
+    font-size: 80px;
+
+    font-weight: bold;
+    margin-top: 15px;
+}
+.banner-part p{
+
+    font-size: 25px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+    margin-top: 21px;
+}
+.banner-part button{
+        
+    color: white;
+            
+    background: #CF4946;
+            
+    border: none;
+            
+    padding: 12px 25px;
+            
+    font-size: 15px;
+            
+    text-transform: uppercase;
+            
+    font-weight: bold;
+            
+    margin-top: 30px;
+            
+    cursor: pointer;
+            
+    transition: .4s all ease-in-out;
+    border: 2px solid #CF4946;
+}
+.banner-part button:hover{
+    background-color: transparent;
+    border-color: white;
+
+}
+/* faith part starting  */
+.faith{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.faith_heading{
+
+    text-align: center;
+
+}
+.faith_heading h1{
+        
+    color: #2D2D2D;
+            
+    font-weight: bold;
+            
+    margin: 80px 0;
+            
+    margin-bottom: 40px;
+}
+.faith i{
+
+    font-size: 60px;
+
+    color: #CF4946;
+
+    margin-bottom: 15px;
+}
+
+.faith h3{
+
+    font-weight: 700;
+
+    font-size: 20px;
+
+    margin-top: 15px;
+}
+
+.faith p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+
+/* read more part  */
+.read_more{
+    background-color: #CF4946;
+    margin: 40px 0;
+    padding: 40px 0;
+    margin-bottom: 0;
+}
+.part1{
+
+}
+.part1 ul{
+
+    list-style: none;
+
+    padding-left: 0;
+
+    margin: 0;
+
+    padding-top: 13px;
+}
+.part1 ul li{
+
+    color: white;
+
+    font-family: 'Oleo Script', cursive;
+
+    font-size: 18px;
+}
+.part1 ul li i{
+    margin-right: 10px;
+}
+.part1 h2{
+
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.part2{
+
+}
+.part2 ul{ 
+    list-style: none;
+}
+.part2 ul li{
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    font-size: 18px;
+}
+.part2 ul li i{
+    margin-right: 10px;
+}
+.part3{
+
+    padding-left: 149px;
+}
+.part3 a{
+
+}
+.part3 .btn-read{
+    
+    color: white;
+        
+    font-size: 19px;
+        
+    font-weight: 600;
+        
+    border: 3px solid white;
+        
+    margin-top: 15px;
+        
+    padding: 11px 25px;
+}
+
+
+
+/* date part starting  */
+.date_part{
+    background-color: #EFEFEF;
+    padding: 75px 0;
+}
+.greetings-part{
+
+    background: white;
+
+    padding: 44px 50px;
+
+    padding-right: 0;
+}
+.greetings-part h2{
+        
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.greetings-part ul {
+    
+    list-style: none;
+        
+    padding-left: 0;
+        
+    margin-top: 21px;
+        
+    margin-bottom: 0;
+}
+.greetings-part ul li{
+    
+    line-height: 30px;
+    font-family: 'Oleo Script', cursive;
+}
+.greetings-part ul li i{
+    
+    color: #CF4946;
+        
+    margin-right: 12px;
+        
+    font-size: 18px;
+}
+.greetings-part ul li span{
+    
+    color: #CF4946;
+}
+.number-part{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 78px;
+    background-color: #CF4946;
+    border: 5px solid #CF4946;
+    transition: .4s all ease-in-out;
+}
+.number-part:hover{
+    background-color: transparent;
+    color: #CF4946;
+}
+.number-part .part1{
+    border-right: 3px solid #efefef;
+}
+.number-part:hover .part1{
+    border-color: #CF4946;
+}
+.part2{
+    border: none;
+}
+.number-part p{
+    font-weight: bold;
+}
+
+
+/* event part starting  */
+
+.heading_part h1{
+        
+    text-align: center;
+            
+    margin-top: 6%;
+            
+    color: #2D2D2D;
+            
+    font-weight: bold;
+            
+    font-family: 'Poppins', sans-serif;
+}
+.part_1{
+
+}
+.part_1 h2{
+    
+    color: #2D2D2D;
+        
+    font-weight: bold;
+        
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.part_1 ul{
+    
+    list-style: none;
+        
+    padding-left: 0;
+        
+    margin-top: 20px;
+}
+.part_1 ul li{
+    font-family: 'Oleo Script', cursive;
+    line-height: 30px;
+}
+.part_1 ul li i{
+    color:#CF4946;
+    margin-right: 11px;
+}
+.part_1 ul li span{
+        
+    color:#CF4946;
+}
+.part_1 p{
+
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+/* latest news part  */
+.news_heading_part{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+.news_heading_part h1{
+            
+    margin-top: 6%;
+            
+    color: #2D2D2D;
+            
+    font-weight: bold;
+            
+    font-family: 'Poppins', sans-serif;
+}
+.news_heading_part h3{
+    
+    font-size: 15px;
+    font-family: 'Oleo Script', cursive;
+}
+.news{
+    margin-bottom: 5%;
+}
+.news_part1{
+    background: #FFFFFF;
+
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+
+    padding: 20px;
+}
+.news_part1 h2{
+    font-weight: 700;
+        
+    font-size: 24px;
+        
+    line-height: 36px;
+        
+    color: #2D2D2D;
+    
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.news_part1 p{ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+        
+    color: #413960;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-learn_more{
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    background:#CF4946;
+    border-radius: 50px;
+    padding: 10px 26px;
+    margin: 15px 0;
+    font-weight: 600;
+    border: 2px solid #CF4946;
+    transition: .4s all ease-in-out;
+}
+.btn-learn_more:hover{  
+    background: transparent;
+    color: #CF4946;
+    font-weight: 600;
+}
+
+
+/* testimonial part */
+.testimonial_heading{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.testimonial_heading h1{ 
+            
+    color: #2D2D2D;
+            
+    font-weight: bold;
+            
+    font-family: 'Poppins', sans-serif;
+}
+.identity_part{
+    padding: 30px;
+    transition: .4s all ease-in-out;
+}
+.identity_part:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.image_part{
+    width: 26%;
+    height: 46%;
+    border-radius:50%;
+    overflow: hidden;
+    margin-left: 36%;
+}
+.text_part{
+    text-align: center;
+}
+.text_part h2{
+                
+    color: #2D2D2D;
+                
+    font-weight: bold;
+                
+    font-family: 'Poppins', sans-serif;
+                
+    font-size: 20px;
+                
+    margin-top: 9px;
+}
+.text_part h3{
+        
+    font-family: 'Poppins', sans-serif;
+        
+    font-size: 16px;
+        
+    margin-top: 12px;
+}
+.text_part ul{
+    
+    overflow: hidden;
+        
+    list-style: none;
+        
+    padding-left: 0;
+        
+    margin-top: 20px;
+        
+    margin-left: 33%;
+}
+.text_part ul li{
+        
+    float: left;
+        
+    margin-left: 30px;
+}
+.text_part ul li:first-child{
+    margin-left: 0;
+}
+.text_part ul li i{
+        
+    font-size: 26px;
+            
+    cursor: pointer;
+            
+    transition: .3s all ease-in-out;
+}
+.text_part ul li i:hover{
+    color: #CF4946
+}
+
+/* footer part starting  */
+footer{
+    background-color: #09142E;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 57px 0;
+    margin: 5% 0 0 0;}
+footer h1{
+        
+    color: #FCAE61;
+        
+    font-weight: bold;
+        
+    font-size: 40px;
+}
+footer h1 span{
+    
+    color: white;
+}
+footer ul{
+    
+    list-style: none;
+        
+    margin: 35px 0;
+}
+footer ul li{
+        
+    display: inline;
+            
+    margin-right: 30px;
+            
+    font-size: 18px;
+}
+footer ul li i{
+    color: #595F6C;
+    font-size: 25px;
+    transition: .3s all ease-in-out;
+}
+footer ul li i:hover{
+    color: white;
+}
+footer p{
+
+    margin-bottom: 0;
+
+    color: #595F6C;
+}

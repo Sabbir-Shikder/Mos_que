@@ -1,0 +1,372 @@
+@media (min-width: 1200px) and (max-width: 1399px){
+    .part3 {
+        padding-left: 63px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    /* banner part  */
+    .banner-part h1 {
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* faith section  */
+    .faith_heading h1{
+        margin: 60px 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .faith i {
+        font-size: 40px;
+    }
+    .faith h3 {
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+    .faith p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* readmore  */
+    .part2 ul li {
+        font-size: 16px;
+    }
+    .part3 .btn-read {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    .part3 {
+        padding-left: 63px;
+    }
+
+    /* date part  */
+    .date_part .col-md-1{
+        display: none;
+    }
+    .greetings-part {
+        padding: 44px 30px;
+    }
+    .greetings-part h2 {
+        font-size: 25px;
+    }
+    .number-part {
+        padding-top: 65px;
+    }
+    .number-part .part1 h1 {
+        font-size: 30px;
+    }
+    
+    /* news part  */
+    .news_part1 h2 {
+        font-size: 23px;
+    }
+    /* testimoinal part  */
+    .text_part ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .text_part ul li {
+        margin: 10px;
+    }
+    .identity_part {
+        margin-top: 50px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    /* banner part  */
+    .banner-part h1 {
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* faith section  */
+    .faith_heading h1{
+        margin: 60px 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .faith i {
+        font-size: 40px;
+    }
+    .faith h3 {
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+    .faith p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* readmore  */
+    .part2 ul li {
+        font-size: 16px;
+    }
+    .part3 .btn-read {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .part3 {
+        padding-left: 63px;
+    }
+
+    /* date part  */
+    .date_part .col-md-1{
+        display: none;
+    }
+    .greetings-part {
+        padding: 44px 18px;
+        margin: auto;
+    }
+    .greetings-part h2 {
+        font-size: 25px;
+    }
+    .number-part{
+        display: none;
+    }
+
+    /* news part  */
+    .news_part1 {
+        margin-bottom: 40px;
+    }
+
+    /* testimoinal part  */
+    .text_part ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .text_part ul li {
+        margin: 10px;
+    }
+    .identity_part {
+        margin-top: 50px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+    /* banner part  */
+    .banner-part i {
+        font-size: 30px;
+    }
+    .banner-part h1 {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .banner-part button {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    /* faith section  */
+    .faith_heading h1{
+        margin: 60px 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .faith i {
+        font-size: 30px;
+    }
+    .faith h3 {
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+    .faith p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* read more section  */
+    .read_more {
+        text-align: center;
+    }
+    .part1 {
+        margin-bottom: 20px;
+    }
+    .part2 ul {
+        padding: 0;
+    }
+    .part3 {
+        padding-left: 0px;
+    }
+    .part3 .btn-read {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    /* date part  */
+    .date_part {
+        padding: 0 0;
+    }
+    .greetings-part {
+        padding: 44px 0;
+        text-align: center;
+    }
+    .number-part .part1 {
+        border-right: 0px solid #efefef;
+    }
+    .heading_part h1 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .part_1 p {
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    /* news part  */
+    .news_heading_part h1 {
+        font-size: 25px;
+    }
+    .news .col-md-4{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    /* fooiter part   */
+    footer ul li {
+        margin-right: 10px;
+    }
+
+}
+@media (min-width: 426px) and (max-width: 575px){
+    .news .col-md-4{
+        width: 75%;
+        margin: auto;
+    }
+    .testimonial .col-md-6{
+        width: 70%;
+        margin: auto;
+    }
+    .news_part1 {
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (min-width: 0px) and (max-width: 575px){
+    /* banner part  */
+    .banner-part i {
+        font-size: 30px;
+    }
+    .banner-part h1 {
+        font-size: 37px;
+        margin-top: 10px;
+    }
+    .banner-part p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .banner-part button {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    /* faith section  */
+    .faith_heading h1{
+        margin: 40px 0;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    .faith i {
+        font-size: 30px;
+    }
+    .faith h3 {
+        font-size: 18px;
+    }
+    .faith p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    /* read more section  */
+    .read_more {
+        text-align: center;
+    }
+    .part1 {
+        margin-bottom: 20px;
+    }
+    .part2 ul {
+        padding: 0;
+    }
+    .part3 {
+        padding-left: 0px;
+    }
+    .part3 .btn-read {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    /* date part  */
+    .date_part {
+        padding: 0 0;
+    }
+    .greetings-part {
+        padding: 44px 0;
+        text-align: center;
+    }
+    .number-part .part1 {
+        border-right: 0px solid #efefef;
+    }
+    .heading_part h1 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .part_1 p {
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    /* news part  */
+    .news_heading_part h1 {
+        font-size: 25px;
+    }
+    .news .col-md-4{
+        margin-bottom: 60px;
+    }
+    .news_part1 {
+        margin-bottom: 40px;
+    }
+
+    /* testimoinal part  */
+    .text_part ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .text_part ul li {
+        margin: 10px;
+    }
+    .identity_part {
+        margin-top: 50px;
+    }
+
+    /* footer part  */
+    footer h1 {
+        font-size: 30px;
+    }
+    footer ul {
+        padding: 0;
+    }
+    footer ul li {
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
