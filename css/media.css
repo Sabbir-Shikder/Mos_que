@@ -1,17 +1,17 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
 
 @media (min-width: 1200px) and (max-width: 1399px){
+    .hero {
+        min-height: 830px;
+    }
     .part3 {
         padding-left: 63px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px){
     /* banner part  */
+    .hero {
+        min-height: 800px;
+    }
     .banner-part h1 {
         font-size: 60px;
         margin-top: 10px;
@@ -92,6 +92,9 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
     /* banner part  */
+    .hero {
+        min-height: 650px;
+    }
     .banner-part h1 {
         font-size: 60px;
         margin-top: 10px;
@@ -171,6 +174,9 @@
 }
 @media (min-width: 576px) and (max-width: 767px){
     /* banner part  */
+    .hero {
+        min-height: 650px;
+    }
     .banner-part i {
         font-size: 30px;
     }
@@ -259,6 +265,9 @@
 
 }
 @media (min-width: 426px) and (max-width: 575px){
+    .hero {
+        min-height: 550px;
+    }
     .news .col-md-4{
         width: 75%;
         margin: auto;
@@ -274,6 +283,9 @@
 }
 @media (min-width: 0px) and (max-width: 575px){
     /* banner part  */
+    .hero {
+        min-height: 550px;
+    }
     .banner-part i {
         font-size: 30px;
     }
