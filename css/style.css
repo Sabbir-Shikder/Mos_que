@@ -19,7 +19,7 @@ font-family: 'Oleo Script', cursive;*/
     background-image:-o-linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/mosque.jpg);
     background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/mosque.jpg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 950px;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
